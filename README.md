@@ -59,11 +59,23 @@ git clone https://github.com/z12ventures/skill-css-first ~/.claude/skills/css-fi
 
 **Project install (one project, shareable with your team):**
 
+Download and copy instead of cloning — this avoids a nested git repository warning:
+
 ```bash
-git clone https://github.com/z12ventures/skill-css-first .claude/skills/css-first
+cd your-project
+mkdir -p .claude/skills/css-first
+curl -L https://github.com/z12ventures/skill-css-first/archive/refs/heads/main.zip -o /tmp/css-first.zip
+unzip /tmp/css-first.zip -d /tmp/
+cp -r /tmp/skill-css-first-main/* .claude/skills/css-first/
+rm -rf /tmp/css-first.zip /tmp/skill-css-first-main
 ```
 
-Commit `.claude/skills/css-first/` to version control to share it with your team.
+Then commit the folder to version control to share it with your team:
+
+```bash
+git add .claude/skills/css-first
+git commit -m "Add css-first skill"
+```
 
 Verify it's active by asking Claude: `What skills are available?` — you should see `css-first` in the list. You can also invoke it directly with `/css-first`.
 
