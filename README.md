@@ -167,4 +167,4 @@ Issues and PRs welcome. If you have a pattern that belongs in the skill — a co
 
 ## License
 
-MIT © [Z12 Ventures LLC](https://z12ventures.com)
+[MIT](./LICENSE) © [Z12 Ventures LLC](https://z12ventures.com)
