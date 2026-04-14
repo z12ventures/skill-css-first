@@ -79,7 +79,7 @@ Skills are uploaded as a ZIP file through the settings UI.
 
 **Install steps:**
 
-1. Download this repo as a ZIP: **Code → Download ZIP** (or `git clone` then zip the folder)
+1. [Download the ZIP](https://github.com/z12ventures/skill-css-first/archive/refs/heads/main.zip)
 2. Go to [Customize → Skills](https://claude.ai/customize/skills)
 3. Click **+** → **Create skill** → **Upload a skill**
 4. Upload the ZIP file
